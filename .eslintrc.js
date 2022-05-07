@@ -3,12 +3,7 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier'
-  ],
+  extends: ['plugin:react/recommended', 'airbnb'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -18,12 +13,8 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['react', '@typescript-eslint'],
-  settings: {
-    react: {
-      version: 'detect'
-    }
-  },
   rules: {
+    'comma-dangle': ['error', 'never'],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error'],
     'prettier/prettier': 2,
