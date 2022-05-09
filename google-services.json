@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "900210412075",
+    "project_id": "please-remind",
+    "storage_bucket": "please-remind.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900210412075:android:2c8b46dda96ae504f6b86e",
+        "android_client_info": {
+          "package_name": "com.lamasdev.pleaseremind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900210412075-54stmi5sgf4uu16k6776dl0g0uuo92h3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lamasdev.pleaseremind",
+            "certificate_hash": "107031d5f34e1ef49c7e9365f28861f75b3c2539"
+          }
+        },
+        {
+          "client_id": "900210412075-im2m0lip3cs4rp37653h13a6qji3j450.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lamasdev.pleaseremind",
+            "certificate_hash": "222a84241361eee01ce581fe854111a8962fa8af"
+          }
+        },
+        {
+          "client_id": "900210412075-2tbcjlqdqqbfjkgvud0pm9jp77mom0m0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApZnbLMjP9lSlkDS9g1Z9pFVr5GK5kCnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900210412075-2tbcjlqdqqbfjkgvud0pm9jp77mom0m0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
